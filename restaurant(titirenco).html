@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bine ați venit la Gusturi Naționale</title>
+    git remote add origin https://github.com/romaska277/BucateNationale.git
+    git branch -M main
+    git push -u origin main
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffa500;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url(restaurante-traditionale.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .menu {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .menu h2 {
+            text-align: center;
+            color: #8b0000;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .menu-item img {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .menu-item div {
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            background-color: #8b0000;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bine ați venit la Gusturi Naționale</h1>
+    </header>
+    <nav>
+        <a href="#despre">Despre Noi</a>
+        <a href="#meniu">Meniu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+    </div>
+    <section id="despre" class="menu">
+        <h2>Despre Noi</h2>
+        <p>Bine ați venit la Gusturi Naționale, noi oferim preparate tradiționale și internaționale realizate cu cele mai proaspete ingrediente. Vă invităm să descoperiți gusturi unice și servicii de calitate!</p>
+    </section>
+    <section id="meniu" class="menu">
+        <h2>Meniul Nostru</h2>
+        <div class="menu-item">
+            <img src="sarmale.jpg" alt="Sarmale">
+            <div>
+                <h3>Sarmale</h3>
+                <p>Sarmale tradiționale servite cu mămăligă și smântână. <strong>Preț: 95 lei</strong></p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="Ciorba-de-burta-reteta-simpla-pas-cu-pas.jpg" alt="Ciorbă de burtă">
+            <div>
+                <h3>Ciorbă de burtă</h3>
+                <p>Ciorbă bogată și cremoasă, preparată cu grijă. <strong>Preț: 115 lei</strong></p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="papanasi.jpg" alt="Papanași">
+            <div>
+                <h3>Papanași</h3>
+                <p>Desert delicios cu smântână și dulceață de afine. <strong>Preț: 75 lei</strong></p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>Contactați-ne la: <strong>contact@restaurantulgustos.ro</strong></p>
+        <p>Adresă: Str.Independenței 6  Chișinău</p>
+        <p>&copy; 2024 Gusturi de Poveste</p>
+    </footer>
+</body>
+</html>
